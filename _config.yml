@@ -1,1 +1,25 @@
+# SITE CONFIGURATION
+url: "https://iatharva.github.io"
+
+#CONFIGURATION
+title: iatharva                                   
+description: "Blog posts & Portfolio"                                          
+favicon: assets/favicon.png     
+
+# Header and footer text
+header_text: Hi, I am Atharva
+header_subtitle: Welcome to my blog
+footer_text: >
+ Copyright © 2020 iAtharva | Powered by <a href="https://jekyllrb.com/">Jekyll</a>
+ 
+ # Blog
+excerpt: true                                    
+post_navigation: true
+
+# PAGINATION
+paginate: 5
+paginate_path: "/blog/page:num"
+
+cookie_consent: true 
+
 theme: jekyll-theme-midnight
