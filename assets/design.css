@@ -3,6 +3,7 @@ body {
     font-family: "Cormorant Garamond", serif;
     font-size: 18px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
     background-color:#222;
   }
   
