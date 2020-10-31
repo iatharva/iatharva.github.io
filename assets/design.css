@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: "Cormorant Garamond", serif;
     font-size: 18px;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     background-color:#222;
   }
@@ -26,6 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px 0 40px;
+    overflow-x: hidden;
   }
   
   @media (min-width: 700px) {
