@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: "Cormorant Garamond", serif;
     font-size: 18px;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     background-color:#222;
   }
