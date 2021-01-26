@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+
+body {
+    margin: 0.5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    background-image: white;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  .Main_title,h2 {
+    font-family: 'Cinzel', serif;
+  }
+  h3{
+  font-family: 'Amiri', serif;
+  }
+  .Main_title {
+    text-align: center;
+  }
+
+  .main_img,.main_detail_img,.ingred_img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .instruc_img {
+    max-width: 100%;
+    align-items: center;
+    height: auto;
+    margin-top: 5%;
+  }
+
+  ol{
+    margin-left: 0%;
+    padding: 0%;
+  }
+
+  
