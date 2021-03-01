@@ -49,8 +49,6 @@ function LoadRecipe(){
         info.appendChild(cs);
         info.appendChild(cu);
 
-        
-        
         //Steps
         instrucr.textContent = doc.data().rsteps;
         //Tips
