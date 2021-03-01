@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*Main body*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: calc(1em + 1vw);
+    background-color: rgb(36, 36, 36)!important;
+    color: whitesmoke !important;
+    }
+ 
+/*top nav*/
+.topnav-right {
+    overflow: hidden;
+}
+
+/*top nav link styling*/
+/*effect to link*/
+.topnav-right a {
+
+    text-decoration: none !important;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+
+    display: block;
+    padding: 1rem 1.25rem;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
+    z-index: 1;
+  }
+
+  .topnav-right a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    right: 1.25rem;
+    left: 1.25rem;
+    background-color: whitesmoke;
+    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
+    transform-origin: bottom center;
+    z-index: -1;
+  }
+
+  .topnav-right a:hover {
+    color: rgb(36, 36, 36);
+  }
+
+  .topnav-right a:hover:after {
+    right: 0;
+    left: 0;
+    height: 100%;
+  }
+
+/*scroll bar*/
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(211, 211, 211);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+
+/*MAIN PAGE*/
+
+/*title*/
+h1{ 
+  font-size: 2.5rem !important;
+  margin-top: 30px !important;
+}
+
+/*Subtitle*/
+h3{
+  margin-top: 20px im !important;
+  font-weight:normal !important;
+}
+
+h4{
+  margin-bottom: 40px !important;
+  font-weight:normal !important;
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    padding-left: 25% !important;
+    padding-right: 25% !important;
+    align-items: center !important;
+    text-align: center;
+  }
+  h1{
+  font-size: 4.5rem !important;
+  }
+
+  .details{
+    align-items: left !important;
+    text-align: left !important;
+  }
+}
+
+p{
+  margin-bottom: 20px !important;
+  text-align: justify !important;
+  font-size: larger !important;
+}
+
+
+/*EXTRA CSS*/
+ul{
+  margin-left: 20px !important;
+    margin-bottom: 20px !important;
+    text-align: justify !important;
+    font-size: larger !important;
+  }
+  
+hr{
+    height:2px;
+    border-width:0;
+    color:rgb(190, 190, 190);
+    background-color:rgb(190, 190, 190);
+    margin-bottom: 30px !important;
+  }
+
+  ul{
+    text-align:left !important
+  }
