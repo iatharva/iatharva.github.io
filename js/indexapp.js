@@ -37,8 +37,6 @@ function renderRecipe(doc){
     let li=document.createElement('li');
     let name= document.createElement('a');
     name.setAttribute('href', '#');
-    //name.setAttribute('href', '/common/recipe.html');
-    //+'/'+doc.id
     name.setAttribute('onclick', "passString('"+doc.id+"')");
     let author = document.createElement('span');
 
