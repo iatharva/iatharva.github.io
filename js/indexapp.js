@@ -21,9 +21,6 @@ function searchRecipe(){
         searchtitle.textContent = 'Enter something in field to search';
         recipesearchList.appendChild(searchtitle);
     }else {
-        //var elem = document.getElementById('recipesearchList'); 
-        //elem.remove();
-        //elem.removeChild(elem);
         searchtitle.textContent = 'Recipe search result for '+searchquery;
         recipesearchList.appendChild(searchtitle);
         docRef.collection('recipedata').where('rtitle', '==',searchquery).get().then((snapshot) => {
