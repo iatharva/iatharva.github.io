@@ -90,11 +90,11 @@ var datetime =  currentdate.getDate() + "/" + (currentdate.getMonth()+1)
       }
       ).then(function(docRef){
           console.log("Document written with ID - ", docRef.id);
-          //passString(docRef.id);
+          passString(docRef.id);
         }
       ).catch(function(error){
           console.error("Error while adding document ", error);
-          //window.location.href='../common/nstatus.html';
+          window.location.href='../common/nstatus.html';
         })
     });
 
