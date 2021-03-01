@@ -96,7 +96,6 @@ function saverecipe(){
       ringre: firebase.firestore.FieldValue.arrayUnion.apply(this, fallIngre),
       rquan: firebase.firestore.FieldValue.arrayUnion.apply(this, fallQuan),
 
-      //rquan : fallQuan,
       rsteps: fsteps.value,
       rtips: ftips.value
 
