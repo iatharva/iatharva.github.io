@@ -1,0 +1,15 @@
+.maindiv {
+    margin-top: 200px !important;
+}
+
+strong{
+    color: rgb(52, 255, 52);
+}
+
+.negative {
+    color: red;
+}
+
+.navbar {
+    text-align: center;
+}
