@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <script></script>
+    <!--head element-->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Recipe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="/img/favicon/favicon.png">
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+        <link rel="stylesheet" href="/css/recipe.css"> 
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    </head>
+
+    <!--body element-->
+    <body onload="getID()">
+
+        <div class="topnav-right">
+            <a href="/common/contact.html">Contact Us</a>
+            <a href="/common/about.html">About</a>
+            <a href="/indexrecipe.html">Home</a>
+        </div>
+
+        <div id="maindiv" class="container-fluid">
+
+            <!--Title-->
+            <div id="titlewitha">
+            <h1 id="recipeTitle" ></h1>
+            </div>
+
+            <h3>About</h3>
+            <hr>
+            <div class="form-group">
+                <p class="about" id="about"></p>
+            </div>
+
+            <h3>Detailed Info</h3>
+            <hr>
+            <div id="details" class="form-group">
+            </div>
+            
+
+            <h3>Ingredients</h3>
+            <hr>
+            <div id="ingredients" class="input-group mb-3">
+                <ul id="ingredient-list">
+                </ul>
+            </div>
+        
+            <h3>Steps for making recipe:</h3>
+            <hr>
+            <div id="steps" class="form-group">
+                <p id="instruction"></p>
+            </div>
+
+            <h3>Extra tips for other people:</h3>
+            <hr>
+            <div id="bonus" class="form-group" >
+                <p id="bonustips"></p>
+            </div>
+        
+        </div>
+
+        <div class="navbar navbar-inverse navbar-fixed-bottom">
+                  <div class="container">
+                    <p class="navbar-text">© iatharva</p>
+                  </div>
+        </div>
+
+        <script>
+            var firebaseConfig = {
+                apiKey: "AIzaSyD73qTUAna49Or8kFlhrB1x2SYMDfspw3s",
+                authDomain: "recipeproject-3bee2.firebaseapp.com",
+                projectId: "recipeproject-3bee2",
+                storageBucket: "recipeproject-3bee2.appspot.com",
+                messagingSenderId: "406351861274",
+                appId: "1:406351861274:web:a082371a3b56d4f38663a3",
+                measurementId: "G-V2VRNKG2L6"
+            };
+            
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            const docRef = firebase.firestore();
+            docRef.settings({ timestampsInSnapshots: true});
+        </script>
+        <script type="text/javascript" src="/js/recipe.js"></script>
+    </body>
+</html>
