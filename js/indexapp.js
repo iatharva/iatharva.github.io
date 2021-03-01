@@ -17,9 +17,7 @@ function searchRecipe(){
     if(searchquery === "")
     {
         console.log(searchquery);
-        //alert("Search Field is empty");
-        searchtitle.textContent = 'Enter something in field to search';
-        recipesearchList.appendChild(searchtitle);
+        alert("Search Field is empty");
     }else {
         searchtitle.textContent = 'Recipe search result for '+searchquery;
         recipesearchList.appendChild(searchtitle);
