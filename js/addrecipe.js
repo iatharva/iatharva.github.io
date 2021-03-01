@@ -3,9 +3,6 @@ $(document).ready(function () {
 });
 
 function load() {
-
-    //$("#noOfIngredient").focus();
-
     $("#addTbl").click(function () {
         $("#ingredient-group-append").empty();
         var NoOfIngre = $("#noOfIngredient").val();
