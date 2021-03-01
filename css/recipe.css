@@ -75,7 +75,7 @@ body {
 
 /*title*/
 h1{ 
-  font-size: 4.5rem !important;
+  font-size: 2.5rem !important;
   margin-top: 30px !important;
 }
 
@@ -96,6 +96,11 @@ h4{
     padding-right: 25% !important;
     align-items: center !important;
     text-align: center;
+  }
+   
+  h1{ 
+   font-size: 4.5rem !important;
+   margin-top: 30px !important;
   }
 
   .details{
