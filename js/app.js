@@ -80,7 +80,7 @@ var datetime =  currentdate.getDate() + "/" + (currentdate.getMonth()+1)
         rcuisine: fCuisine.value,
         rcourse: fCourse.value,
 
-        //ringre: firebase.firestore.FieldValue.arrayUnion.apply(this, fallIngre),
+        ringre: firebase.firestore.FieldValue.arrayUnion.apply(this, fallIngre),
         //rquan: firebase.firestore.FieldValue.arrayUnion.apply(this, fallQuan),
 
         rquan : fallQuan,
