@@ -50,7 +50,7 @@ var datetime =  currentdate.getDate() + "/" + (currentdate.getMonth()+1)
 
   fsubmit.addEventListener("click", function() {
 
-    if(!fTitle.value || !fAuthor.value || !fAbout.value || !fTime.value || !fServes.value || !fCuisine.value || !fCourse.value || !fsteps.value || !ftips.value ){
+    if(!fTitle.value || !fAuthor.value || !fAbout.value || !fTime.value || !fServes.value || !fCuisine.value || !fCourse.value || !fsteps.value || !ftips.value || !nOfIngre.value){
       alert("Fill all the fields");
     }else{
 
