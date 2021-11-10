@@ -1,3 +1,3 @@
-## iatharva
+## Portfolio website of Atharva Ikhar
 
-My Portfolio Website at iatharva.github.io
+https://iatharva.github.io
