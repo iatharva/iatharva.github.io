@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Contact</title>
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/aos.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+     <link rel="shortcut icon" type="image/png" href="images/images/favicon.png">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+     <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg position-absolute">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/favicon.png" alt="logo" width="40">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html#about" class="nav-link">Studio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#project" class="nav-link smoothScroll">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+     <!-- CONTACT -->
+     <section class="contact section-padding">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-6 mx-auto col-md-7 col-12 py-5 mt-5 text-center" data-aos="fade-up">
+
+                      <h1 class="mb-4">Hey there, Let's <strong>talk</strong> about <strong>creative</strong> projects</h1>
+
+                      <p>or email me at <a href="mailto:atharva.ikhar@yahoo.com">atharva.ikhar@yahoo.com</a></p>
+                    </div>
+
+                    <div class="col-lg-8 mx-auto col-md-10 col-12">
+                    
+                      <form class="contact-form" data-aos="fade-up" data-aos-delay="300" role="form">
+                        <div class="row">
+
+                          <div class="col-lg-6 col-12">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                          </div>
+
+                          <div class="col-lg-6 col-12">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                          </div>
+
+                          <div class="col-lg-12 col-12">
+                            <textarea class="form-control" rows="6" name="message" id="message" placeholder="Message"></textarea>
+                          </div>
+
+                          <div class="col-lg-5 mx-auto col-7">
+                            <button class="form-control" id="submit-button" name="submit" type="button">Send Message</button>
+                          </div>
+
+                        </div>
+
+                      </form>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <div class="google-map" data-aos="zoom-in">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242117.681019963!2d73.72287955840689!3d18.524890420519863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1635928583332!5m2!1sen!2sin" width="1920" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+     </div>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 mx-lg-auto col-md-8 col-10">
+            <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">The core of man's spirit comes from <strong>new experiences</strong>.</h1>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
+            <h4 class="my-4">Contact Me</h4>
+
+            <p>
+              <a href="mailto:atharva.ikhar@yahoo.com" title="Mail me directly :)">
+                <i class="fa fa-envelope mr-2 footer-icon"></i>
+                atharva.ikhar@yahoo.com
+              </a>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
+            <h4 class="my-4">Location</h4>
+
+            <p class="mb-1">
+              <i class="fa fa-home mr-2 footer-icon"></i> 
+              India
+            </p>
+          </div>
+
+          <div class="col-lg-4 mx-lg-auto text-center col-md-8 col-12" data-aos="fade-up" data-aos-delay="400">
+            <p class="copyright-text">Copyright &copy; 2021 iAtharva
+            <br>
+          </div>
+
+          <div class="col-lg-4 mx-lg-auto col-md-6 col-12" data-aos="fade-up" data-aos-delay="500">
+            
+            <ul class="footer-link">
+              <li><a href="/stories/stories.html">Stories</a></li>
+              <li><a href="privacy-policy.html" class="nav-link">Privacy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 mx-lg-auto col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+            <ul class="social-icon">
+              <li><a href="https://github.com/iatharva" class="fa fa-github" target="_blank" title="GitHub"></a></li>
+              <li><a href="https://twitter.com/iatharva_" class="fa fa-twitter" target="_blank" title="Twitter"></a></li>
+              <li><a href="https://www.linkedin.com/in/iatharva" class="fa fa-linkedin" target="_blank" title="Linkedin"></a></li>
+              <li><a href="https://t.me/iatharva" class="fa fa-telegram" target="_blank" title="Telegram"></a></li>
+              <li><a href="https://wa.me/918698961607" class="fa fa-whatsapp" target="_blank" title="What's app"></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/aos.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
+
+     <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyB6JS-cI9HIaZZqM46DI-ze0DkJhsMQHlw",
+        authDomain: "portfolio-contact-form-86db4.firebaseapp.com",
+        projectId: "portfolio-contact-form-86db4",
+        storageBucket: "portfolio-contact-form-86db4.appspot.com",
+        messagingSenderId: "191095349689",
+        appId: "1:191095349689:web:f8d081fe09d36698391668",
+        measurementId: "G-SBHTW12ZYW"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      firebase.initializeApp(firebaseConfig);
+      const docRef = firebase.firestore();
+
+      //connecting html element
+      const fname = document.querySelector("#name");
+      const femail = document.querySelector("#email");
+      const fmessage = document.querySelector("#message");
+      const fsubmit = document.querySelector("#submit-button");
+        
+      fsubmit.addEventListener("click",function() {
+        if(!fname.value || !femail.value || !fmessage.value){
+          alert("Fill all the fields");
+        }else{
+          savemessages();
+        }
+      });
+      
+      function savemessages(){
+        docRef.collection("Messages").add(
+          {
+            sendername: fname.value,
+            email: femail.value,
+            message: fmessage.value,
+
+          }
+          ).then(function(docRef){
+              console.log("Document written with ID -", docRef.id);
+              window.location.href='sent.html';
+            }
+          ).catch(function(error){
+              console.error("Error while adding document ", error);
+              window.location.href='failed.html';
+            })
+      };
+    </script>
+
+</body>
+</html>
