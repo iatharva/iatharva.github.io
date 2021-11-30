@@ -15,7 +15,7 @@
 
                       <div class="quote" data-aos="fade-up" data-aos-delay="200"></div>
 
-                      <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">No testimonials to display</h2>
+                      <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">Name of the person </h2>
 
                       <p data-aos="fade-up" data-aos-delay="400">
                         <strong>Name of person</strong>
