@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^iatharva\.github\.io$ [NC]
+RewriteRule ^$ http://iatharva.tech [L,R=301]
